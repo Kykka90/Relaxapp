@@ -1,4 +1,7 @@
 body {
   padding: 10px;
   font-family: monospace;
+  background: linear-gradient(180deg, #0E2337 26.24%, #245582 76.52%, #3677B4 99.61%, #F0FBFF 110.82%, #A6CBED 119.52%);
+  background-repeat:no-repeat;
+
 }
