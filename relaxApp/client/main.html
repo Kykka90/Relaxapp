@@ -1,13 +1,21 @@
 
 <head>
-  <title>relaxApp</title>
-</head>
+    <title>SkySpace</title>
+  </head>
+  
+  <body>
+    <div id='mainDiv'>
+    <h1>Welcome to SkySpace</h1>
+  
+    {{> logo}} 
+    {{> startButton}}
+  </div>
+  </body>
 
-<body>
-  <h1>Skyspace</h1>
+  <template name="logo">
+    <img src="../../large.jpg" alt="image1" id="logo"><br>
+  </template>
 
-</body>
-
-
-
-
+  <template name="startButton">
+      <button type='button' id='startButton'>Nouvelle session</button>
+  </template>
