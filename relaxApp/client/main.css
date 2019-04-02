@@ -5,6 +5,7 @@ body {
 }
 
 #mainDiv {
+  position: relative;
   margin: 0 auto;
   max-width: 700px;
   height: 1000px;
@@ -18,4 +19,35 @@ body {
   font-size: 25px;
   border-radius: 4px;
   background-color: slategray;
+}
+
+#topBox{
+  position:absolute;
+  top:15px;
+}
+
+#menuButton{
+  margin: 15px;
+}
+
+#menuButton:hover{
+  opacity:0.7;
+  cursor:pointer;
+
+}
+
+#bottomBox{
+  position:absolute;
+  bottom:15px;
+}
+
+
+#volumeButton{
+  margin: 15px;
+}
+
+#volumeButton:hover{
+  opacity:0.7;
+  cursor:pointer;
+
 }

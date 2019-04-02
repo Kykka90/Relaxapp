@@ -5,10 +5,12 @@
   
   <body>
     <div id='mainDiv'>
+      {{> topButtons}}
     <h1>Welcome to SkySpace</h1>
   
     {{> logo}} 
     {{> startButton}}
+    {{> bottomButtons}}
   </div>
   </body>
 
@@ -18,4 +20,21 @@
 
   <template name="startButton">
       <button type='button' id='startButton'>Nouvelle session</button>
+  </template>
+
+  <template name="topButtons">
+    <div id="topBox"> 
+      <a id="menuButton">
+        <img src="https://img.icons8.com/ios/50/000000/menu.png" />
+      </a>
+    </div>
+  </template>
+
+  <template name="bottomButtons">
+    <div id="bottomBox"> 
+      <a id="volumeButton">
+        <img src="https://img.icons8.com/ios/50/000000/medium-volume.png" />
+        <!-- https://img.icons8.com/ios/50/000000/no-audio.png -->
+      </a>
+    </div>
   </template>
