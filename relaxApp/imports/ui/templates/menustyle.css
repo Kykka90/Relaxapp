@@ -1,0 +1,34 @@
+html,body,.col-xs-12,.row {
+    height:100%;
+  }
+  .row > div {
+    height:100%;
+  }
+    
+  /*rendre le fond visible*/
+  .row .col-xs-10 {
+    background-color:#F0FBFF;
+  }
+
+ /*taille de l'image*/
+  .accueilImg, .statImg, .methodesImg, .paraImg, .aproposImg, .feedbackImg{
+      height: 30px;
+      width: 30px;
+  }
+
+/*effets sur les divs*/
+.accueil, .stat, .methodes, .para, .aPropos, .feedback{
+    color: #0E2337;
+    height: 50px;
+    border-bottom: 1px solid #0E2337; 
+    padding: 10px;
+    line-height: 30px; 
+    font-size: 20px;
+}
+
+h1{
+    color:#3677B4;
+    padding: 10px;
+    line-height: 10px; 
+    font-size: 20px;
+}
