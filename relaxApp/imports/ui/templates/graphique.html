@@ -1,10 +1,14 @@
-<!-- template pour afficher la collection humeur début-->
+<!-- J'ai mis page + template ensemble pour afficher la collection humeur début-->
+<body>
+    {{> chart}}
+</body>
 
-<template name="graphique">
-    <div id="graphTemplate" class="nePasMontrer">
-        <h3>Data des humeurs</h3> 
-          {{#each humeur in graph}}
-          <p>{{humeur.value}}</p>
-          {{/each}}
-    </div>
+
+<template name="chart">
+    <!-- Bouton qui déclenche la création du graphique en attendant que je trouve comment le faire charger a l'ouverture de la page-->
+    <button id="leBouton">Créer graphique</button> 
+    <!-- Le canvas est où le graphique va apparaitre-->
+    <canvas id="myChart" width="400" height="100">
+        <p>Hello Fallback World</p>
+    </canvas>
 </template>

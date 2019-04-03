@@ -6,7 +6,7 @@ import '../templates/slider.css';
 
 Template.slider.events({
 
-    //Code pour définir ce qu'il se passe quand le bouton suivant est cliqué
+    //Code pour définir ce qu'il se passe quand le bouton 'suivant' est cliqué
     'click #sliderNextButton'(event, instance) {
       //Insérer la valeur du slider + date dans la collection humeurDebut
       humeurDebut.insert({
