@@ -8,12 +8,13 @@ import '../node_modules/chart.js/dist/Chart.bundle.min.js';
 //Création d'un évenement pour déclencher le graphique
 Template.chart.events({
   'click #leBouton': function(){
+      console.log('salut c est moi el bouton');
     // $('#myChart') = document.getElementById('myChart') mais pour une raison que j'ignore cette 2eme formulation donne des erreurs
-var ctx = $('#myChart');
-console.log(ctx);
-//Création du graphique random (pas avec les infos de humeurDebut pour l'instant)
-var myChart = new Chart(ctx, {
-    //Type: peut aussi etre pie, bar, etc...
+    var ctx = $('#myChart');
+    console.log(ctx);
+    //Création du graphique random (pas avec les infos de humeurDebut pour l'instant)
+    var myChart = new Chart(ctx, {
+        //Type: peut aussi etre pie, bar, etc...
     type: 'line',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
