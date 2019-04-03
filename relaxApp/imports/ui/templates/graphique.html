@@ -1,0 +1,10 @@
+<!-- template pour afficher la collection humeur début-->
+
+<template name="graphique">
+    <div id="graphTemplate" class="nePasMontrer">
+        <h3>Data des humeurs</h3> 
+          {{#each humeur in graph}}
+          <p>{{humeur.value}}</p>
+          {{/each}}
+    </div>
+</template>
