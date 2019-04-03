@@ -8,6 +8,10 @@
 
 import '../imports/ui/pageMenu.js'
 
+import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
+if (Meteor.isDevelopment) {
+    window.FlowRouter = FlowRouter;
+}
 
 
 Template.startButton.events({
