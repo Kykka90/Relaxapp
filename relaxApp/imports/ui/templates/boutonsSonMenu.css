@@ -1,0 +1,14 @@
+.fixed-bottom{
+    position: fixed;
+    bottom: 10px;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 10px;
+}
+.volumeImg, .menuImg{
+    height: 50px;
+    width: 50px;
+
+}
