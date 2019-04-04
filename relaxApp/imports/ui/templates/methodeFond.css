@@ -14,7 +14,7 @@ html, body {
 
   .text-center{
     color: #F0FBFF;
-    font-size: 60px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
   }
-
-  

@@ -16,6 +16,12 @@
     background-color: #FFE9BE;
 }
 
+.commencer:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+  
+
 .logo{
     max-width: 8%; 
     height: auto; 
