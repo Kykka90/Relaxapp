@@ -16,13 +16,6 @@ html, body {
     background: linear-gradient(180deg, #245582 0%, #3677B4 0.01%, #A6CBED 21.29%, #F0FBFF 78.59%);
   }
 
-.text-center{
-    font-size: 70px;
-    font-family: monospace;
-    padding-top: 10%;
-    color: #245582 ;
-}
-
 
 #grand{
     height: 100px;
@@ -31,25 +24,59 @@ html, body {
     background: #FFE9BE;
 }
 
-#img{
-    height: 50px;
-    bottom: 0;
-    width: 50px;
-    background:blue;
-}
 
 #forme{
     position: fixed;
     border-bottom: 50px solid #EFD4A0;
 	border-left: 0px solid transparent;
-    border-right: 30px solid transparent;
+    border-right: 0px solid transparent;
     height: 50px;
     bottom: 0;
     width: 100%;
 }
 
-#titre{
-    font-family: monospace;
-    font-size: 30 px;
+
+
+#forme2{
+    position: fixed;
+    border-bottom: 100px solid #FFE9BE;
+	border-left: 0px solid transparent;
+    border-right: 60px solid transparent;
+    width: 20%;
+}
+
+#forme3{
+    position: fixed;
+    border-bottom: 90px solid #FFE9BE;
+	border-left: 0px solid transparent;
+    border-right: 150px solid transparent;
+    width: 40%;
+}
+
+#forme4{
+    position: fixed;
+    border-bottom: 80px solid  #FFE9BE;
+	border-left: 0px solid transparent;
+    border-right: 500px solid transparent;
+    width: 100%;
+}
+
+#forme5{
+    position: fixed;
+    border-bottom: 80px solid #FFE9BE;
+	border-left: 800px solid transparent;
+    border-right: 0px solid transparent;
+    width: 150%;   
+}
+
+
+
+#soleil{
+    margin-top: 50px !important;
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 30px #fff;
 }
 

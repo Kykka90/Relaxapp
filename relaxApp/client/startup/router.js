@@ -17,3 +17,12 @@ FlowRouter.route('/', {
         BlazeLayout.render('menu');
     }
 });
+
+//Création de la route pour la première page de la méthode
+FlowRouter.route('/methode1', {
+    name: 'pageMethode1',
+    action() {
+        BlazeLayout.render('pageMethode1');
+    }
+});
+

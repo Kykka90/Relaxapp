@@ -2,3 +2,4 @@
 import './pageAccueil.html';
 import './scripts/Accueil.js';
 import './scripts/boutonsSonMenu';
+import './scripts/commencer'
